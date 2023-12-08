@@ -123,6 +123,45 @@
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
+                      <img src='images/cm.png' width="190">
+                    </div>
+                    <img src='images/cm.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_image').style.opacity = "1";
+                    }
+
+                    function malle_stop() {
+                      document.getElementById('malle_image').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://johanan528.github.io/">
+                    <papertitle>Adding Conditional Controls to Text-to-Image Consistency Models</papertitle>
+                  </a>
+                  <br>
+                  Jie Xiao, Kai Zhu, Han Zhang, <strong>Zhiheng Liu</strong>, Yujun Shen, Yu Liu, Xueyang Fu, Zheng-Jun Zha 
+                  <br>
+                  <em>arxiv</em>, 2023
+
+                  <br>
+                  <a href="https://johanan528.github.io/">pdf</a>/
+                  <a href="https://swiftforce.github.io/CCM/">page</a>
+                  <p></p>
+                  <p>
+                    We consider alternative strategies for adding ControlNet-like conditional control to CMs and present three significant findings. 1) ControlNet trained for diffusion models (DMs) can be directly applied to CMs for high-level semantic controls but struggles with low-level detail and realism control. 2) CMs serve as an independent class of generative models, based on which ControlNet can be trained from scratch using Consistency Training proposed by Song et al. 3) A lightweight adapter can be jointly optimized under multiple conditions through Consistency Training, allowing for the swift transfer of DMs-based ControlNet to CMs. 
+                  </p>
+                </td>
+              </tr>
+
+              
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_image'>
                       <img src='images/dreamvideo.jpeg' width="190">
                     </div>
                     <img src='images/dreamvideo.jpeg' width="190">
