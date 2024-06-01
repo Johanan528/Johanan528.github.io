@@ -116,8 +116,46 @@
           <table
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
-
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_video'>
+                      <video width="190" autoplay loop muted>
+                        <source src="path_to_your_video/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                      </video>
+                    </div>
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_video').style.opacity = "1";
+                    }
+                    function malle_stop() {
+                      document.getElementById('malle_video').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://johanan528.github.io/">
+                    <papertitle>InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior</papertitle>
+                  </a>
+                  <br>
+                   <strong>Zhiheng Liu</strong><span class="star">*</span>, Hao Ouyang<span class="star">*</span>, Qiuyu Wang, Ka Leong Cheng, Jie Xiao, Kai Zhu, Nan Xue, Yu Liu, Yujun Shen, Yang Cao
+                  <br>
+                  <em>arxiv</em>, 2023
+
+                  <br>
+                  <a href="https://arxiv.org/abs/2404.11613/">pdf</a>/
+                  <a href="https://johanan528.github.io/Infusion/">page</a>
+                  <a href="https://github.com/ali-vilab/Infusion/">code</a>
+                  <p></p>
+                  <p>
+                    We consider alternative strategies for adding ControlNet-like conditional control to CMs and present three significant findings. 1) ControlNet trained for diffusion models (DMs) can be directly applied to CMs for high-level semantic controls but struggles with low-level detail and realism control. 2) CMs serve as an independent class of generative models, based on which ControlNet can be trained from scratch using Consistency Training proposed by Song et al. 3) A lightweight adapter can be jointly optimized under multiple conditions through Consistency Training, allowing for the swift transfer of DMs-based ControlNet to CMs. 
+                  </p>
+                </td>
+              </tr>
+<!--               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
@@ -153,10 +191,10 @@
                     We consider alternative strategies for adding ControlNet-like conditional control to CMs and present three significant findings. 1) ControlNet trained for diffusion models (DMs) can be directly applied to CMs for high-level semantic controls but struggles with low-level detail and realism control. 2) CMs serve as an independent class of generative models, based on which ControlNet can be trained from scratch using Consistency Training proposed by Song et al. 3) A lightweight adapter can be jointly optimized under multiple conditions through Consistency Training, allowing for the swift transfer of DMs-based ControlNet to CMs. 
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
               
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+<!--               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
                     <div class="two" id='malle_image'>
@@ -192,7 +230,7 @@
                     This work presents Dreamvideo, a method can customize both subject identity and motion pattern to generate desired videos with various context descriptions. 
                   </p>
                 </td>
-              </tr>
+              </tr> -->
 
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
