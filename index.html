@@ -82,6 +82,7 @@
                 <td style="padding:20px;width:100%;vertical-align:middle">
                   <heading>News</heading>
                   <ul>
+                    <li> <b>[3. 2025]</b> 3 papers accepted at NeurIPS 2025.</li>
                     <li> <b>[3. 2025]</b> 3 papers accepted at CVPR 2025, including one <b><font color="red">Highlight</font></b>.</li>
                     <li> <b>[12. 2024]</b> We release <a href="https://johanan528.github.io/depthlab_web">DepthLab</a>, a robust depth inpainting foundation model that can be applied to various downstream tasks to enhance performance.</li>
                     <li> <b>[12. 2024]</b> We release <a href="https://thematrix1999.github.io/">The Matrix</a>, a foundation world model for generating infinite-length, hyper-realistic videos with real-time, frame-level control.</li>
@@ -119,7 +120,45 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_gif'>
+                      <img src='images/ww.gif' width="190">
+                    </div>
+                    <img src='images/ww.gif' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_video').style.opacity = "1";
+                    }
+                    function malle_stop() {
+                      document.getElementById('malle_video').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://johanan528.github.io/worldweaver_web/">
+                    <papertitle>WorldWeaver: Generating Long-Horizon Video Worlds via Rich Perception</papertitle>
+                  </a>
+                  <br>
+                   <strong>Zhiheng Liu</strong>, Xueqing Deng, Shoufa Chen, Angtian Wang, Qiushan Guo, Mingfei Han, Zeyue Xue, Mengzhao Chen, Ping Luo, Linjie Yang
+                  <br>
+                  <em>NeurIPS</em>, 2025
 
+                  <br>
+                  <a href="https://arxiv.org/abs/2508.15720">pdf</a>/
+                  <a href="https://johanan528.github.io/worldweaver_web/">page</a>/
+                  <p></p>
+                  <p>
+                   WorldWeaver is a framework for long-horizon video generation that unifies RGB and perceptual conditions, leveraging depth-guided memory and segmented noise scheduling to enhance structural and temporal consistency.
+                </td>
+              </tr>
+
+
+
+              
               
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
