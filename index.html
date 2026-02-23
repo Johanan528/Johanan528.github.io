@@ -120,6 +120,55 @@
             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
             <tbody>
 
+            <tr onmouseout="malle_stop()" onmouseover="malle_start()">
+                <td style="padding:20px;width:30%;vertical-align:middle">
+                  <div class="one">
+                    <div class="two" id='malle_gif'>
+                      <img src='images/tuna.png' width="190">
+                    </div>
+                    <img src='images/tuna.png' width="190">
+                  </div>
+                  <script type="text/javascript">
+                    function malle_start() {
+                      document.getElementById('malle_video').style.opacity = "1";
+                    }
+                    function malle_stop() {
+                      document.getElementById('malle_video').style.opacity = "0";
+                    }
+                    malle_stop()
+                  </script>
+                </td>
+                <td style="padding:20px;width:70%;vertical-align:top">
+                  <a href="https://johanan528.github.io/worldweaver_web/">
+                    <papertitle>TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models</papertitle>
+                  </a>
+                  <br>
+                   <strong>Zhiheng Liu</strong>, Weiming Ren*, Haozhe Liu, Zijian Zhou, Shoufa Chen, Haonan Qiu, Xiaoke Huang, Zhaochong An, Fanny Yang, Aditya Patel, Viktar Atliha, Tony Ng, Xiao Han, Chuyan Zhu, Chenyang Zhang, Ding Liu, Juan-Manuel Perez-Rua, Sen He, Jürgen Schmidhuber, Wenhu Chen, Ping Luo, Wei Liu, Tao Xiang, Jonas Schult1, Yuren Cong 
+                  <br>
+                  <em>CVPR</em>, 2026
+
+                  <br>
+                  <a href="https://arxiv.org/abs/2512.02014">pdf</a>/
+                  <a href="https://tuna-ai.org/">page</a>
+                  <p></p>
+                  <p>
+  This work introduces <strong>Tuna</strong>, a native Unified Multimodal Model (UMM) that builds a continuous visual representation space for end-to-end image and video processing. Key highlights include:
+</p>
+<ul>
+  <li>It achieves state-of-the-art results across a wide range of tasks, including image and video.</li>
+  <li>The representation encoder plays a crucial role; using stronger pretrained encoders consistently and significantly improves performance across all multimodal tasks.</li>
+  <li>Compared to previous models with decoupled encoders, Tuna's unified architecture avoids representation format mismatches, leading to superior results in both understanding and generation.</li>
+</ul>
+                </td>
+              </tr>
+
+
+
+
+
+
+
+              
               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
                 <td style="padding:20px;width:30%;vertical-align:middle">
                   <div class="one">
