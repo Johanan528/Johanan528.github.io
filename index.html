@@ -1,644 +1,233 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+  <meta charset="UTF-8">
   <title>Zhiheng Liu (刘志恒)</title>
-
   <meta name="author" content="Zhiheng Liu">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="icon" type="image/jpg" href="images/Jujutsu.jpeg">
-
-  <script type="text/javascript">
-
-    function display(id) {
-      var traget = document.getElementById(id);
-      if (traget.style.display == "none") {
-        traget.style.display = "";
-      } else {
-        traget.style.display = "none";
-      }
-    }  
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="icon" href="images/Jujutsu.jpeg" type="image/jpg">
+  <script>
+    function toggleDisplay(id) {
+      const el = document.getElementById(id);
+      el.style.display = (el.style.display === "none") ? "" : "none";
+    }
   </script>
 </head>
-
 <body>
-  <table
-    style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  <table style="width:100%;max-width:800px;margin:auto;border-collapse:separate;">
     <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:63%;vertical-align:middle">
-                  <p style="text-align:center">
-                    <name>Zhiheng Liu</name>
-
-                  </p>
-                  <p>
-                    I am a second-year Ph.D. student at the Department of Computer Science, The University of Hong Kong (HKU), advised by Prof. <a href="http://luoping.me/">Ping Luo</a>.
-                  <p>
-                    Before that, I obtained my master degree from University of Science and Technology of China (USTC)</a>,
-                advised by Prof. <a href="https://scholar.google.com/citations?user=K7rTHNcAAAAJ&hl=zh-CN">Yang Cao</a>. 
-                  </p>
-
-                  <p>
-                    My previous research primarily centered around generative models, with a focus on image, video, and 3D generation. Currently, my interests have shifted towards native multimodal models. I am also actively exploring long-context modeling, an area where I am currently an enthusiastic beginner.
-                  </p>
-                  
-                  <p>
-                    I am always open to research discussions and collaborations; please feel free to contact me via email (zhihengl0528 AT connect.hku.hk).
-                  </p>
-                
-                  <p>
-                    <!-- <font color="red">Update: On job market now! Drop me an email if you are interested.</font> -->
-                  </p>
-                  <p style="text-align:center">
-                  <a href="mailto:zhihengl0528@connect.hku.hk">Email</a> &nbsp/&nbsp
-                  <a href="https://scholar.google.com/citations?user=LT5JwlcAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp/&nbsp
-                  <a href="https://github.com/Johanan528">Github</a>
-              </p>
-                </td>
-                <td style="padding:2.5%;width:40%;max-width:40%">
-                  <a href="images/photo-life.jpeg"><img style="width:80%;max-width:80" alt="profile photo"
-                      src="images/photo-life.jpeg" class="hoverZoomLink"></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-
-        
-          <table
-          <!-- <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>News</heading>
-                  <ul>
-                    <li> <b>[3. 2026]</b> 5 papers accepted at CVPR 2026 (4 main and 1 finding), including one <b><font color="red">Highlight</font></b>.</li>
-                    <li> <b>[9. 2025]</b> 3 papers accepted at NeurIPS 2025.</li>
-                    <li> <b>[3. 2025]</b> 3 papers accepted at CVPR 2025, including one <b><font color="red">Highlight</font></b>.</li>
-                    <li> <b>[12. 2024]</b> We release <a href="https://johanan528.github.io/depthlab_web">DepthLab</a>, a robust depth inpainting foundation model that can be applied to various downstream tasks to enhance performance.</li>
-                    <li> <b>[12. 2024]</b> We release <a href="https://thematrix1999.github.io/">The Matrix</a>, a foundation world model for generating infinite-length, hyper-realistic videos with real-time, frame-level control.</li>
-                    <li> <b>[7. 2024]</b> <a href="https://arxiv.org/abs/2312.02928">LivePhoto</a> accepted at ECCV 2024.</li>
-                    <li> <b>[5. 2024]</b> <a href="https://arxiv.org/abs/2312.06971">CCM</a> accepted at ICML 2024.</li>
-                    <li> <b>[4. 2024]</b> We release <a href="https://arxiv.org/abs/2404.11613">InFusion</a> for 3D inpainting via diffusion prior.</li>
-                    <li> <b>[3. 2024]</b> <a href="https://arxiv.org/abs/2312.04433">DreamVideo</a> accepted at CVPR 2024.</li>
-                    <li> <b>[1. 2024]</b> <a href="https://openreview.net/forum?id=6ALuy19mPa&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)">DreamClean</a> accepted at ICLR 2024.</li>
-                    <li> <b>[12. 2023]</b> This page is online. Discussions and collaborations are welcome.</li>
-                    </div>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Selected Publications</heading>
-                  <!-- <p>
-                    <a href="https://scholar.google.com/citations?user=INISnXkAAAAJ&hl=en">Google Scholar</a> 
-                  </p> -->
-                  <p>
-                    (*: Equal contribution)
-                  </p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-
-            <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_gif'>
-                      <img src='images/tuna.png' width="190">
-                    </div>
-                    <img src='images/tuna.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_video').style.opacity = "1";
-                    }
-                    function malle_stop() {
-                      document.getElementById('malle_video').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/worldweaver_web/">
-                    <papertitle>TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models</papertitle>
-                  </a>
-                  <br>
-                   <strong>Zhiheng Liu</strong>, Weiming Ren*, Haozhe Liu, Zijian Zhou, Shoufa Chen, Haonan Qiu, Xiaoke Huang, Zhaochong An, Fanny Yang, Aditya Patel, Viktar Atliha, Tony Ng, Xiao Han, Chuyan Zhu, Chenyang Zhang, Ding Liu, Juan-Manuel Perez-Rua, Sen He, Jürgen Schmidhuber, Wenhu Chen, Ping Luo, Wei Liu, Tao Xiang, Jonas Schult, Yuren Cong 
-                  <br>
-                  <em>CVPR</em>, 2026 <b><font color="red">Highlight</font></b>
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2512.02014">pdf</a>/
-                  <a href="https://tuna-ai.org/">page</a>
-                  <p></p>
-                  <p>
-  This work introduces <strong>Tuna</strong>, a native Unified Multimodal Model (UMM) that builds a continuous visual representation space for end-to-end image and video processing. Key highlights include:
-</p>
-<ul>
-  <li>It achieves state-of-the-art results across a wide range of tasks, including image and video.</li>
-  <li>The representation encoder plays a crucial role; using stronger pretrained encoders consistently and significantly improves performance across all multimodal tasks.</li>
-  <li>Compared to previous models with decoupled encoders, Tuna's unified architecture avoids representation format mismatches, leading to superior results in both understanding and generation.</li>
-</ul>
-                </td>
-              </tr>
-
-
-
-
-
-
-
-              
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_gif'>
-                      <img src='images/ww.gif' width="190">
-                    </div>
-                    <img src='images/ww.gif' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_video').style.opacity = "1";
-                    }
-                    function malle_stop() {
-                      document.getElementById('malle_video').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/worldweaver_web/">
-                    <papertitle>WorldWeaver: Generating Long-Horizon Video Worlds via Rich Perception</papertitle>
-                  </a>
-                  <br>
-                   <strong>Zhiheng Liu</strong>, Xueqing Deng, Shoufa Chen, Angtian Wang, Qiushan Guo, Mingfei Han, Zeyue Xue, Mengzhao Chen, Ping Luo, Linjie Yang
-                  <br>
-                  <em>NeurIPS</em>, 2025
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2508.15720">pdf</a>/
-                  <a href="https://johanan528.github.io/worldweaver_web/">page</a>
-                  <p></p>
-                  <p>
-                   WorldWeaver is a framework for long-horizon video generation that unifies RGB and perceptual conditions, leveraging depth-guided memory and segmented noise scheduling to enhance structural and temporal consistency.
-                </td>
-              </tr>
-
-
-
-              
-              
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/teaser_new.png' width="190">
-                    </div>
-                    <img src='images/teaser_new.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_video').style.opacity = "1";
-                    }
-                    function malle_stop() {
-                      document.getElementById('malle_video').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/depthlab_web/">
-                    <papertitle>DepthLab: From Partial to Complete</papertitle>
-                  </a>
-                  <br>
-                   <strong>Zhiheng Liu</strong><span class="star">*</span>, Ka Leong Cheng<span class="star">*</span>, Qiuyu Wang, Shuzhe Wang, Hao Ouyang, Bin Tan, Kai Zhu, Yujun Shen, Qicheng Chen, Ping Luo
-                  <br>
-                  <em>arxiv</em>, 2024
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2412.18153/">pdf</a>/
-                  <a href="https://johanan528.github.io/depthlab_web/">page</a>
-                  <!-- <a href="https://github.com/Johanan528/DepthLab">code</a> -->
-                  <p></p>
-                  <p>
-                   We propose a robust depth inpainting foundation model that can be applied to various downstream tasks to enhance performance.
-                  </p>
-                </td>
-              </tr>
-
-              
-
-
-
-
-
-
-
-              
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_gif'>
-                      <img src='images/infusion.gif' width="190">
-                    </div>
-                    <img src='images/infusion.gif' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_video').style.opacity = "1";
-                    }
-                    function malle_stop() {
-                      document.getElementById('malle_video').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/Infusion/">
-                    <papertitle>InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior</papertitle>
-                  </a>
-                  <br>
-                   <strong>Zhiheng Liu</strong><span class="star">*</span>, Hao Ouyang<span class="star">*</span>, Qiuyu Wang, Ka Leong Cheng, Jie Xiao, Kai Zhu, Nan Xue, Yu Liu, Yujun Shen, Yang Cao
-                  <br>
-                 <em>CVPRW HiGen</em>, 2026 Oral
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2404.11613/">pdf</a>/
-                  <a href="https://johanan528.github.io/Infusion/">page</a>
-                  <!-- <a href="https://github.com/ali-vilab/Infusion/">code</a> -->
-                  <p></p>
-                  <p>
-                   We present an image-conditioned depth inpainting model, which uses the diffusion prior to inpaint 3D Gaussians and has very good geometric and texture consistency.
-                  </p>
-                </td>
-              </tr>
-
-
-
-
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                 <div class="one">
-                    <div class="two" id='malle_gif'>
-                      <img src='images/teaser_compressed.gif' width="190">
-                    </div>
-                    <img src='images/teaser_compressed.gif' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_video').style.opacity = "1";
-                    }
-                    function malle_stop() {
-                      document.getElementById('malle_video').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/MangaNinjia/">
-                    <papertitle>MangaNinja: Line Art Colorization with Precise Reference Following</papertitle>
-                  </a>
-                  <br>
-                   <strong>Zhiheng Liu</strong><span class="star">*</span>, Ka Leong Cheng<span class="star">*</span>, Xi Chen, Jie Xiao, Hao Ouyang, Kai Zhu, Yu Liu, Yujun Shen, Qicheng Chen, Ping Luo
-                  <br>
-                  <em>CVPR</em>, 2025 <b><font color="red">Highlight</font></b>
-
-                  <br>
-                  <a href="https://arxiv.org/abs/2501.08332">pdf</a>/
-                  <a href="https://johanan528.github.io/MangaNinjia/">page</a>
-                  <!-- <a href="https://github.com/ali-vilab/MangaNinjia">code</a> -->
-                  <p></p>
-                  <p>
-                   MangaNinja is a reference-based line art colorization method that enables precise matching and fine-grained interactive control.
-                  </p>
-                </td>
-              </tr>
-
-
-              
-<!--               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/cm.png' width="190">
-                    </div>
-                    <img src='images/cm.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://johanan528.github.io/">
-                    <papertitle>Adding Conditional Controls to Text-to-Image Consistency Models</papertitle>
-                  </a>
-                  <br>
-                  Jie Xiao, Kai Zhu, Han Zhang, <strong>Zhiheng Liu</strong>, Yujun Shen, Yu Liu, Xueyang Fu, Zheng-Jun Zha 
-                  <br>
-                  <em>arxiv</em>, 2023
-
-                  <br>
-                  <a href="https://johanan528.github.io/">pdf</a>/
-                  <a href="https://swiftforce.github.io/CCM/">page</a>
-                  <p></p>
-                  <p>
-                    We consider alternative strategies for adding ControlNet-like conditional control to CMs and present three significant findings. 1) ControlNet trained for diffusion models (DMs) can be directly applied to CMs for high-level semantic controls but struggles with low-level detail and realism control. 2) CMs serve as an independent class of generative models, based on which ControlNet can be trained from scratch using Consistency Training proposed by Song et al. 3) A lightweight adapter can be jointly optimized under multiple conditions through Consistency Training, allowing for the swift transfer of DMs-based ControlNet to CMs. 
-                  </p>
-                </td>
-              </tr> -->
-
-              
-<!--               <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/dreamvideo.jpeg' width="190">
-                    </div>
-                    <img src='images/dreamvideo.jpeg' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2312.04433">
-                    <papertitle>DreamVideo: Composing Your Dream Videos with Customized Subject and Motion</papertitle>
-                  </a>
-                  <br>
-                  Yujie Wei, Shiwei Zhang, Zhiwu Qing, Hangjie Yuan, <strong>Zhiheng Liu</strong>, Yu Liu, Yingya Zhang, Jingren Zhou, Hongming Shan 
-                  <br>
-                  <em>CVPR</em>, 2024
-
-                  <br>
-                  <a href="https://arxiv.org/pdf/2312.04433.pdf">pdf</a>/
-                  <a href="https://dreamvideot2v.github.io.">page</a>
-                  <p></p>
-                  <p>
-                    This work presents Dreamvideo, a method can customize both subject identity and motion pattern to generate desired videos with various context descriptions. 
-                  </p>
-                </td>
-              </tr> -->
-
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/livephoto.jpg' width="190">
-                    </div>
-                    <img src='images/livephoto.jpg' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2312.02928">
-                    <papertitle>LivePhoto: Real Image Animation with Text-guided Motion Control</papertitle>
-                  </a>
-                  <br>
-                  Xi Chen, <strong>Zhiheng Liu</strong>, Mengting Chen, Yutong Feng, Yu Liu, Yujun Shen, Hengshuang Zhao
-                  <br>
-                  <em>ECCV</em>, 2024
-
-                  <br>
-                  <a href="https://arxiv.org/pdf/2312.02928.pdf">pdf</a>/
-                  <a href="https://xavierchen34.github.io/LivePhoto-Page/">page</a>
-                  <p></p>
-                  <p>
-                    We present LivePhoto, a real image animation method with text control. Different from previous works, LivePhoto truely listens to the text instructions and well preserves the object-ID.
-                </td>
-              </tr>
-              
-              
-              
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/cones2.jpg' width="190">
-                    </div>
-                    <img src='images/cones2.jpg' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2305.19327">
-                    <papertitle>Cones 2: Customizable Image Synthesis with Multiple Subjects</papertitle>
-                  </a>
-                  <br>
-                  <strong>Zhiheng Liu</strong><span class="star">*</span>, Yifei Zhang<span class="star">*</span>, Yujun Shen, Kecheng Zheng, Kai Zhu, Ruili Feng, Yu Liu, Deli Zhao, Jingren Zhou, Yang Cao
-                  <br>
-                  <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
-                  <em>NeurIPS</em>, 2023
-
-                  <br>
-                  <a href="https://arxiv.org/pdf/2305.19327.pdf">pdf</a> /
-                  <a href="https://cones-page.github.io/">page</a>
-                  <p></p>
-                  <p>
-                    Cones 2 uses a simple yet effective representation to register a subject. The storage space required for each subject is approximately 5 KB. Moreover, Cones 2 allows for the flexible composition of various subjects without any model tuning.
-                  </p>
-                </td>
-              </tr>    
-
-
-
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/cones.jpg' width="190">
-                    </div>
-                    <img src='images/cones.jpg' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a href="https://arxiv.org/abs/2303.05125">
-                    <papertitle>Cones: Concept Neurons in Diffusion Models for Customized Generation</papertitle>
-                  </a>
-                  <br>
-                  <strong>Zhiheng Liu</strong><span class="star">*</span>, Ruili Feng<span class="star">*</span>, Kai Zhu, Yifei Zhang, Kecheng Zheng, Yu Liu, Deli Zhao, Jingren Zhou, Yang Cao
-                  <br>
-                  <!--<em>ICML</em>, 2022 &nbsp <font color="red"><strong>(Spotlight)</strong></font> -->
-                  <em>ICML</em>, 2023 <b><font color="red">Oral</font></b>
-
-                  <br>
-                  <a href="https://arxiv.org/pdf/2303.05125.pdf">pdf</a> /
-                  <a href="https://cones-page.github.io/">page</a>
-                  <p></p>
-                  <p>
-                    We explore the subject-specific concept neurons in a pre-trained text-to-image diffusion model. Concatenating multiple clusters of concept neurons representing different persons, objects, and backgrounds can flexibly generate all related concepts in a single image.
-                  </p>
-                </td>
-              </tr>   
-
-            </tbody>
-          </table>
-
-
-          <!-- <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Projects & Resources</heading>
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr onmouseout="malle_stop()" onmouseover="malle_start()">
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <div class="one">
-                    <div class="two" id='malle_image'>
-                      <img src='images/SiamFCOT.png' width="190">
-                    </div>
-                    <img src='images/SiamFCOT.png' width="190">
-                  </div>
-                  <script type="text/javascript">
-                    function malle_start() {
-                      document.getElementById('malle_image').style.opacity = "1";
-                    }
-
-                    function malle_stop() {
-                      document.getElementById('malle_image').style.opacity = "0";
-                    }
-                    malle_stop()
-                  </script>
-                </td>
-                <td style="padding:20px;width:70%;vertical-align:top">
-                  <a>
-                    <papertitle>Siamese Fully Convolutional Object Tracking</papertitle>
-                  </a>
-                  <br>
-                  Weizhao Wang, Xinyu Chen,  <strong>Xi Chen</strong>, Yinda Xu, Zeyu Wang
-                  <br>
-                  <a href="https://ieeexplore.ieee.org/document/9022051">pdf</a> /
-                  <a href="http://data.votchallenge.net/vot2019/trackers/SiamFCOT-code-2019-06-09T16_22_25.118122.zip">code</a>
-                  <p></p>
-                  <p>
-                    Second place solution for VOT2019 real-time track. SiamFCOT serves as a strong pipeline for real-time 
-                    single object tracking.
-                  </p>
-                </td>
-              </tr>
-
-
-            </tbody>
-          </table>
-
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Academic Service</heading>
-                  <p>
-                    <b>Reviewer / Program Committee Member</b>
-                  </p>
-                  <ul>
-                    <li> CVPR (2021, 2022, 2023)</li>
-                    <li> ICCV (2021, 2023)</li>
-                    <li> ECCV (2022)</li>
-                    <li> NeurIPS (2023)</li>
-                    <li> AAAI (2022)</li>
-                  </ul>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
-
-
-<!--           <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:30%;vertical-align:middle">
-                  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=64wFOrCgVspDjUUVP2vRXujCrmintJYyeSI4nWJgn-c'></script>
-                </td>
-              </tr>
-            </tbody>
-          </table> -->
-
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tr>
+        <td>
+          <!-- 个人信息 -->
+          <table style="width:100%;margin:auto;">
             <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:center;font-size:small;">
-                  Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's
-                    website</a>
+              <td style="width:63%;padding:2.5%;vertical-align:middle;text-align:center;">
+                <p><name>Zhiheng Liu</name></p>
+                <p>
+                  I am a second-year Ph.D. student at the Department of Computer Science, 
+                  <a href="http://www.cs.hku.hk">The University of Hong Kong (HKU)</a>, advised by Prof. 
+                  <a href="http://luoping.me/">Ping Luo</a>.
                 </p>
+                <p>
+                  Before that, I obtained my master degree from <a href="https://www.ustc.edu.cn/">University of Science and Technology of China (USTC)</a>,
+                  advised by Prof. <a href="https://scholar.google.com/citations?user=K7rTHNcAAAAJ&hl=zh-CN">Yang Cao</a>.
+                </p>
+                <p>
+                  My previous research primarily centered around generative models, focusing on image, video, and 3D generation. 
+                  Currently, my interests have shifted towards native multimodal models and long-context modeling.
+                </p>
+                <p>
+                  I am always open to research discussions and collaborations; please feel free to contact me via email 
+                  (<a href="mailto:zhihengl0528@connect.hku.hk">zhihengl0528@connect.hku.hk</a>).
+                </p>
+                <p style="text-align:center;">
+                  <a href="mailto:zhihengl0528@connect.hku.hk">Email</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?user=LT5JwlcAAAAJ&hl=zh-CN">Google Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/Johanan528">Github</a>
+                </p>
+              </td>
+              <td style="width:37%;padding:2.5%;text-align:center;">
+                <a href="images/photo-life.jpeg">
+                  <img src="images/photo-life.jpeg" alt="profile photo" style="width:80%;max-width:80%;">
+                </a>
               </td>
             </tr>
           </table>
+
+          <!-- 新闻 -->
+          <table style="width:100%;margin:auto;">
+            <tr>
+              <td style="padding:20px;">
+                <h2>News</h2>
+                <ul>
+                  <li><b>[3. 2026]</b> 5 papers accepted at CVPR 2026 (4 main + 1 finding), including one <b style="color:red;">Highlight</b>.</li>
+                  <li><b>[9. 2025]</b> 3 papers accepted at NeurIPS 2025.</li>
+                  <li><b>[3. 2025]</b> 3 papers accepted at CVPR 2025, including one <b style="color:red;">Highlight</b>.</li>
+                  <li><b>[12. 2024]</b> Released <a href="https://johanan528.github.io/depthlab_web">DepthLab</a>, a robust depth inpainting foundation model.</li>
+                  <li><b>[12. 2024]</b> Released <a href="https://thematrix1999.github.io/">The Matrix</a>, a foundation world model for hyper-realistic video generation.</li>
+                  <li><b>[7. 2024]</b> <a href="https://arxiv.org/abs/2312.02928">LivePhoto</a> accepted at ECCV 2024.</li>
+                  <li><b>[5. 2024]</b> <a href="https://arxiv.org/abs/2312.06971">CCM</a> accepted at ICML 2024.</li>
+                  <li><b>[4. 2024]</b> Released <a href="https://arxiv.org/abs/2404.11613">InFusion</a> for 3D inpainting via diffusion prior.</li>
+                  <li><b>[3. 2024]</b> <a href="https://arxiv.org/abs/2312.04433">DreamVideo</a> accepted at CVPR 2024.</li>
+                  <li><b>[1. 2024]</b> <a href="https://openreview.net/forum?id=6ALuy19mPa">DreamClean</a> accepted at ICLR 2024.</li>
+                  <li><b>[12. 2023]</b> This page is online. Discussions and collaborations are welcome.</li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+
+          <!-- 精选论文 -->
+          <table style="width:100%;margin:auto;">
+            <tr>
+              <td style="padding:20px;">
+                <h2>Selected Publications</h2>
+                <p>(* = Equal contribution)</p>
+              </td>
+            </tr>
+          </table>
+
+          <table style="width:100%;margin:auto;">
+            <!-- Tuna2 -->
+           <tr>
+  <td style="width:30%;padding:20px;text-align:center;">
+    <img src="images/teaser.png" width="190">
+  </td>
+  <td style="width:70%;padding:20px;vertical-align:top;">
+    <a href="https://tuna-ai.org/tuna-2/"><strong>Tuna‑2: Pixel Embeddings Beat Vision Encoders for Multimodal Understanding and Generation</strong></a><br>
+    <strong>Zhiheng Liu</strong>*, Weiming Ren*, Xiaoke Huang, Shoufa Chen, Tianhong Li, Mengzhao Chen, Yatai Ji, Sen He, Jonas Schult, Belinda Zeng, Tao Xiang, Wenhu Chen, Ping Luo, Luke Zettlemoyer, Yuren Cong<br>
+    <em>arXiv preprint, 2026</em><br>
+    <a href="https://arxiv.org/abs/2604.24763">pdf</a> / <a href="https://tuna-ai.org/tuna-2/">page</a>
+    <p>Evolution of the Tuna‑2 architecture and multimodal performance comparison. We simplify Tuna by progressively stripping away its visual encoding components. By removing the VAE, we first derive Tuna‑R, a pixel-space UMM that relies solely on a representation encoder. Tuna‑2 further streamlines the design by bypassing the representation encoder entirely, utilizing direct patch embedding layers for raw image inputs. Tuna‑2 using pixel embeddings outperforms both Tuna‑R and Tuna across a diverse suite of multimodal benchmarks.</p>
+  </td>
+</tr>
+            
+            <!-- Tuna -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/tuna.png" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://tuna-ai.org/"><strong>TUNA: Taming Unified Visual Representations for Native Unified Multimodal Models</strong></a><br>
+                <strong>Zhiheng Liu</strong>*, Weiming Ren*, Haozhe Liu, …, Ping Luo, Wei Liu, Tao Xiang<br>
+                <em>CVPR, 2026</em> <b style="color:red;">Highlight</b><br>
+                <a href="https://arxiv.org/abs/2512.02014">pdf</a> / <a href="https://tuna-ai.org/">page</a>
+                <p>Introduces Tuna, a native Unified Multimodal Model (UMM) for continuous visual representation in end-to-end image & video processing.</p>
+              </td>
+            </tr>
+
+            <!-- WorldWeaver -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/ww.gif" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://johanan528.github.io/worldweaver_web/"><strong>WorldWeaver: Generating Long-Horizon Video Worlds via Rich Perception</strong></a><br>
+                <strong>Zhiheng Liu</strong>, Xueqing Deng, Shoufa Chen, …, Linjie Yang<br>
+                <em>NeurIPS, 2025</em><br>
+                <a href="https://arxiv.org/abs/2508.15720">pdf</a> / <a href="https://johanan528.github.io/worldweaver_web/">page</a>
+                <p>Framework for long-horizon video generation unifying RGB & perceptual conditions, leveraging depth-guided memory & segmented noise scheduling.</p>
+              </td>
+            </tr>
+
+            <!-- DepthLab -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/teaser_new.png" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://johanan528.github.io/depthlab_web/"><strong>DepthLab: From Partial to Complete</strong></a><br>
+                <strong>Zhiheng Liu*</strong>, Ka Leong Cheng*, Qiuyu Wang, …, Ping Luo<br>
+                <em>arXiv, 2024</em><br>
+                <a href="https://arxiv.org/abs/2412.18153/">pdf</a> / <a href="https://johanan528.github.io/depthlab_web/">page</a>
+                <p>Robust depth inpainting foundation model for downstream tasks to enhance performance.</p>
+              </td>
+            </tr>
+
+            <!-- InFusion -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/infusion.gif" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://johanan528.github.io/Infusion/"><strong>InFusion: Inpainting 3D Gaussians via Learning Depth Completion from Diffusion Prior</strong></a><br>
+                <strong>Zhiheng Liu*</strong>, Hao Ouyang*, Qiuyu Wang, …, Yang Cao<br>
+                <em>CVPRW HiGen, 2026 Oral</em><br>
+                <a href="https://arxiv.org/abs/2404.11613/">pdf</a> / <a href="https://johanan528.github.io/Infusion/">page</a>
+                <p>Image-conditioned depth inpainting model using diffusion prior for 3D Gaussians, ensuring geometric & texture consistency.</p>
+              </td>
+            </tr>
+
+            <!-- MangaNinja -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/teaser_compressed.gif" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://johanan528.github.io/MangaNinjia/"><strong>MangaNinja: Line Art Colorization with Precise Reference Following</strong></a><br>
+                <strong>Zhiheng Liu*</strong>, Ka Leong Cheng*, Xi Chen, …, Ping Luo<br>
+                <em>CVPR, 2025</em> <b style="color:red;">Highlight</b><br>
+                <a href="https://arxiv.org/abs/2501.08332">pdf</a> / <a href="https://johanan528.github.io/MangaNinjia/">page</a>
+                <p>Reference-based line art colorization method for precise matching & fine-grained interactive control.</p>
+              </td>
+            </tr>
+
+            <!-- LivePhoto -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/livephoto.jpg" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://arxiv.org/abs/2312.02928"><strong>LivePhoto: Real Image Animation with Text-guided Motion Control</strong></a><br>
+                Xi Chen, <strong>Zhiheng Liu</strong>, Mengting Chen, …, Hengshuang Zhao<br>
+                <em>ECCV, 2024</em><br>
+                <a href="https://arxiv.org/pdf/2312.02928.pdf">pdf</a> / <a href="https://xavierchen34.github.io/LivePhoto-Page/">page</a>
+                <p>Real image animation method with text guidance; preserves object identity accurately.</p>
+              </td>
+            </tr>
+
+            <!-- Cones 2 -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/cones2.jpg" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://arxiv.org/abs/2305.19327"><strong>Cones 2: Customizable Image Synthesis with Multiple Subjects</strong></a><br>
+                <strong>Zhiheng Liu*</strong>, Yifei Zhang*, Yujun Shen, …, Yang Cao<br>
+                <em>NeurIPS, 2023</em><br>
+                <a href="https://arxiv.org/pdf/2305.19327.pdf">pdf</a> / <a href="https://cones-page.github.io/">page</a>
+                <p>Flexible subject composition with minimal storage per subject (~5 KB), no model tuning required.</p>
+              </td>
+            </tr>
+
+            <!-- Cones -->
+            <tr>
+              <td style="width:30%;padding:20px;text-align:center;">
+                <img src="images/cones.jpg" width="190">
+              </td>
+              <td style="width:70%;padding:20px;vertical-align:top;">
+                <a href="https://arxiv.org/abs/2303.05125"><strong>Cones: Concept Neurons in Diffusion Models for Customized Generation</strong></a><br>
+                <strong>Zhiheng Liu*</strong>, Ruili Feng*, Kai Zhu, …, Yang Cao<br>
+                <em>ICML, 2023</em> <b style="color:red;">Oral</b><br>
+                <a href="https://arxiv.org/pdf/2303.05125.pdf">pdf</a> / <a href="https://cones-page.github.io/">page</a>
+                <p>Explores subject-specific concept neurons in a text-to-image diffusion model for flexible multi-concept generation.</p>
+              </td>
+            </tr>
+
+          </table>
+
+          <!-- 页脚 -->
+          <table style="width:100%;margin:auto;">
+            <tr>
+              <td style="padding:0;text-align:center;font-size:small;">
+                Design and source code from <a href="https://jonbarron.info">Jon Barron's website</a>
+              </td>
+            </tr>
+          </table>
+
         </td>
       </tr>
+    </tbody>
   </table>
 </body>
-
 </html>
